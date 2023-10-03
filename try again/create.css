@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F2F5;  
+}
+#logo{
+width: 300px;
+color:#1C1E21 ;
+}
+h2{
+    text-align: center;
+    font-family: Helvetica,"SFProDisplay-Bold",Helvetica,Arial,sans-serif;
+font-size: 24px;
+font-weight: 550;
+margin-top:5px;
+}
+h3{
+    text-align: center;
+    font-style:  Helvetica,"SFProText-Regular", Arial,  sans-serif;
+    font-size: 18px;
+    margin: 2px 50px;
+    font-weight:400 ;
+    line-height: 24px;
+    color: RGB(96, 103, 112);
+    
+}
+#m_box{
+    height: 580px;
+    width:420px;
+    padding: 10px;
+    border-radius: 2%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.185);
+    background-color: white;
+}
+.names{
+    margin: 20px 0px 12px 3px;
+
+    height: 44px;
+    width: 48%;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px  rgba(90, 90, 90, 0.556) solid;
+}
+#fname{
+    margin-right: 2px;
+}
+.email_pass{
+margin: 0px 5px 10px 3px;
+    height: 44px;
+    padding-left: 10px;
+    width: 98.54%;
+    border-radius: 5px;
+    border: 1px  rgba(90, 90, 90, 0.556) solid;
+}
+.quiz{
+margin: 2px  0px 5px 6px;
+padding-left: 0px;
+
+
+}
+.dropdown{
+    width: 31%;
+    padding: 5px;
+    height: 36px;
+    display: inline-block;
+    margin-left:4px ;
+    display: inline-block;
+
+    font-size: 18px;
+font-weight: 100;
+}
+
+#g{
+    height: 40px;
+    width: 28vw;
+    display: flex;
+    right: 20px;
+    align-items: center;
+}
+.gender{
+    height: 38px;
+    width: 31%;
+    text-align: center;
+    margin: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(255, 255, 255);
+gap: 10px;
+border: 1px rgba(0, 0, 0, 0.363) solid;
+border-radius: 5px;
+}
+.under{
+    font-size: 12px;
+   margin-top: 20px;
+}
+#singup{
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+ margin-top: 9px;
+ margin-bottom: 10px;
+ height: 37px;
+ width:46% ;
+ margin-right: auto;
+ margin-left: auto;
+ background-color: #38ba1d;
+ border: #3fc723;
+ border-radius: 6px;
+ font-size: 22px;
+ font-weight: 600;
+ color: white;
+}
+#have-a-account{
+display: flex;
+justify-content: center;
+text-decoration: none;
+color:#1877F2;
+}
+#have-a-account:hover{
+    text-decoration: underline;
+}
+#footer{
+    height: 300px;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.483);
+    position: absolute;
+    top: 75%;
+    z-index: -1;
+
+}
